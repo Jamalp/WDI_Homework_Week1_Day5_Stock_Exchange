@@ -12,7 +12,7 @@ class Clientx
     stock = Stock.new(ticker, shares, market_rate)
     stock_value = shares * market_rate
     @balance -= stock_value.to_i
-    puts "Your new balance is $#{@balance}."
+    puts "Your new balance is $#{@balance}. ."
   end
 
   def sell_stock(ticker, shares)

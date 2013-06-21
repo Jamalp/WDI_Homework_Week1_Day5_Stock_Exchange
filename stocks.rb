@@ -11,6 +11,7 @@ class Stock
     shares * market_rate
   end
 
+
   def to_s
     "#{@ticker}, #{@shares}, #{@market_rate}"
   end
